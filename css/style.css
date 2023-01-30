@@ -1,0 +1,174 @@
+:root{
+    --primari-text-color:#434455;
+    --title-text-color:#434455;
+    --body-background-color: #E5E5E5;
+    --header-background-color:#FFFFFF ;
+    --link-color:#4D5AE5;
+    --link-studio-color:#2E2F42;
+    --hover-color:#e54d4d;
+    --site-nav-link:#2E2F42;
+    --auth-nav-list:#434455;
+    --hero-title-background-color: #2E2F42;
+    --hero-title-color: #FFFFFF;
+    --accent-background-color:#4D5AE5;
+    --accent-color:#FFFFFF;
+    --section-background-color: #E5E5E5;
+    --section-color: #2E2F42;
+    --section-title-color: #2E2F42;
+    --text-title-color: #434455;
+    --feature-title-color:#2E2F42;
+}  
+
+/*Колір  тексту WEB #4D5AE5; */
+/*Колір тексту Studio #2E2F42;*/
+/*Колір тексту навігації #2E2F42;*/
+/*Основний колір тексту #434455;*/
+/*Колір тексту заголовків #2F42E2;*/
+/*Колір тексту Героя #FFFFFF;*/
+/*Колір тексту WEB footer #4D5AE5;*/
+/*Колір тексту footer #F7E9FC; */
+/*Колір фона основного #E5E5E5;*/
+/*Колір фону header #FFFFFF;*/
+/*Колір фону Герой #2E2F42;*/
+/*Колір фону Акцент #4D5AE5;*/
+/*Колір 2 частини body #F4F4FD*/
+/*Колір фону footer #2E2F42; */
+
+body{
+     background-color: #FFFFFF;
+     color:#434455; 
+      }
+/*header*/
+header{
+    background-color: #FFFFFF ;
+}
+.link{
+    color: #4D5AE5;
+}
+.link-studio{
+    color: #2E2F42;
+   }
+   .link-studio :hover,
+   .link-studio :focus{
+    color: #e54d4d;
+   }
+   .link:hover,
+   .link:focus {
+    color: #e54d4d;
+   }
+ 
+    /*nav*/
+ .list {
+    list-style: none;
+ }
+ .site-nav .link{
+    color: #2E2F42 ;
+ }
+ .site-nav .link:hover, 
+ .site-nav .link:focus{
+    color: #e54d4d;
+    }
+    .auth-nav .list{
+        color: #434455;
+    }
+    .auth-nav .list:hover,
+    .auth-nav .list:focus {
+        color: #e54d4d;
+    }
+    /*main*/
+    /*hero*/
+    .hero-title{
+        background-color: #2E2F42;
+        color: #FFFFFF ;
+    }
+    .accent{
+        background-color:#4D5AE5;
+        color: #FFFFFF;
+    }
+    /*Основна частина*/
+    .section{
+        background-color:#E5E5E5;
+        color: #2E2F42;
+    }
+    .list{
+        section-title :none;
+    } 
+    .section-title{
+        color: #2E2F42;
+    }
+    .text-title{
+        color: #434455;
+    }
+    /*Друга секция*/
+    .feature-title{
+        background-color:#E5E5E5;
+    }
+    .images-title {
+        color:#2E2F42;
+    }
+    .section-title{
+         color:#2E2F42;
+    }
+    .list {
+        command-title: none;
+    }
+    .command-title{
+        background-color:#F4F4FD ;
+    }
+    .images-title {
+        color:#2E2F42; ;
+    }
+    .text-title{
+      color: #2E2F42;   
+    }
+
+     /*Footer*/
+     footer{
+        background-color:#2E2F42  ;
+    }
+    .logo-link{
+       color: #4D5AE5;
+     }
+     .logo-studio {
+        color: #F4F4FD;
+     }
+     .text-footer{
+        color:#F7E9FC;
+     }
+
+
+        
+        
+    
+
+
+
+
+я
+
+
+
+
+ 
+
+ 
+
+
+
+
+    
+
+
+.site-nav .link{
+    color: #2E2F42;
+}
+.site-nav .link :hover,
+.site-nav .link :focus{
+    color: #4D5AE5;
+}
+
+
+
+
+    
+
