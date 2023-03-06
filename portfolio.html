@@ -9,66 +9,73 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <!--body-->
-<body>
+<body class="body">
+
     <!--header-->
-        <header class="page_header">
+    <header class="header">
     
-    <!--nav-->
-    <!--logo-->        
-          <a class="logo" href="/">
-            <p class="logo_web">
-                WEB<span class="logo_studio">STUDIO</span>
+      <div class="cartulary">
+        <a class="logo" href="/">
+            <p class="logo__web">WEB<span class="logo__studio">STUDIO</span>
             </p>
-          </a>
-    
-        <nav class="nav">
-            <ul class="nav_list">
-                <li class="nav_item list">
-                    <a class="nav_studio" href="/">Studio
-                    </a>
-                </li>
-    
-                <li class="nav_item list">
-                    <a class="nav_portfolio" href="/">Portfolio
-                    </a>
-                </li>
-    
-                <li class="nav_item list">
-                    <a class="nav_contacts" href="">Contacts
-                    </a>
-                </li>
-            </ul>
-    
-            <ul class="auth list">
-                <li class="auth_bill">
-                    <a class="auth_mailto" href="mailtoinfo@devstudio.com">info@devstudio.com</a>
-                </li>
-    
-                <li class="auth_bill">
-                    <a class="auth_-tel" href="tel:110001111111">+11 (000) 111-11-11</a>
-                </li>
-            </ul>
-        </nav>
-        </header>
-    <main>
-        <h1>Portfolio</h1>
-        <ul class="filter list">
-            <li>
-                <button class="filter-list accent" type="button">All</button>
+        </a>
+      </div>
+        
+        <!--nav-->
+        <ul class="nav ">
+            <li class="nav__bill list">
+                <a class="nav__studio" href="">Studio</a>
             </li>
-            <li>
-                <button class="list-web-studio" type="button">Web Site</button>
+    
+            <li class="nav__inventery list">
+                <a class="nav__portfolio" href="">Portfolio</a>
             </li>
-            <li>
-                <button class="list-app" type="button">App</button>
-            </li>
-            <li>
-                <button class="list-design" type="button">Design</button>
-            </li>
-            <li>
-                <button class="list-marketing" type="button">Marketing</button>
+    
+            <li class="nav__roster list">
+                <a class="nav__contacts" href="">Contacts</a>
             </li>
         </ul>
+    
+        <ul class="auto">
+            <li class="auto__contacts list">
+                <a class="auto__mailto" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+    
+            <li class="auto__knot list">
+                <a class="auto__tel" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            </li>
+        </ul>
+    </header>
+   <!--main-->
+<main class="main__page">
+    <ul class="main__filt">
+        <li class="main__gang all list">
+            <a class="button__all" href=""><span class="text_all">All<span></a>
+        </li>
+
+        <li class="main__gang list">
+            <a target="button__website" href="">
+                <span>Web Site</span>
+             </a>
+        </li>
+        <li class="main__gang list">   
+            <a target="button__app" href="">
+                <span>App</span>
+            </a>
+        </li>
+        <li class="main__gang list">
+            <a target="button__design" href="">
+                <span>Design</span>
+            </a>
+           
+        </li>    
+        <li class="main__gang list">
+            <a target="button__marketing" href="">
+                <span>Marketing</span>
+            </a>
+        </li>    
+    </ul>
+
         <ul class="list">
             <li>
                 <img src="./img/Portfolio1.jpg" alt="">
