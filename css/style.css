@@ -1,13 +1,6 @@
 
-*,*::*::before*::after {
-    margin: 0;
-    padding: 0;
-    border: none;
-    box-sizing: border-box;
-    max-width: 1000px;
-    overflow: hidden;
-    margin: 0 auto;
-}
+
+
 :root {
     --text-color:#434455;
     --body-background:#e5e5e5;
@@ -35,8 +28,12 @@
    /*body*/
    body {
     letter-spacing: 0.02em;
-    max-width: 1440px;
-    margin: 0px auto;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+    background-color: #e5e5e5;
+
 }
 
 .header {
