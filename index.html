@@ -1,101 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hw_2</title>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/normailze.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <!--index.html-->
 <body>
-<!--header-->
-<header class="heager">
-<!--header__logo-->
-    <div class="heager__logo">
-       <a class="logo" href="">WEB<span>STUDIO</span></a>
+<header class="header">
+    <div class="conteiner">
+        <div class="header__inside">
+            <a href="/" class="logo">WEB<span>STUDIO
+                </span>
+            </a>
+            <nav class="menu">
+                <ul class="menu__list reset-list">
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Studio
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Portfolio
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Contacts
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+<!--contacts-->          
+            <ul class="top-contacts reset-list">
+                <li class="top-contacts__item">
+                    <a href="mailto:info@devstudio.com" class="top-contacts__link">
+                        info@devstudio.com
+                    </a>
+                </li>
+                <li class="top-contacts__item">
+                    <a href="tel:+110001111111" class="top-contacts__link">
+                        +11 (000) 111-11-11
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
-<!--header__nav-->
-<nav class="menu">
-    <ul class="menu__list">
-        <li class="menu__item"><a href="#" class="menu__link">Studio</a></li>
-        <li class="menu__item"><a href="#" class="menu__link">Portfolio</a></li>    
-         <li class="menu__item" ><a href="#" class="menu__link">Contacts</a></li>   
-    </ul>
-
-<ul class="auto__list">
-    <li class="auto__item">
-        <a class="auto__mailto" href="mailto:info@devstudio.com">info@devstudio.com</a>
-    </li>
-    <li class="auto__item">
-        <a class="auto__tel" href="tel:+110001111111">+11(000)111-11-11</a>
-    </li>
-</ul>
-</nav>
 </header>
-
 <!--hero-->
 <div class="hero">
-    <h1 class="hero__title">Effective Solutions for Your Business
-    </h1>
-    <button class="button"><span>Order Service</span>
-    </button>
+    <div class="conteiner">
+        <h1>Effective Solutions<br>Your Business</h1>
+        <button class="btn">Order Service</button>
+    </div>
 </div>
-
 <!--main-->
-<div class="main">
-    <section class="section__one">
-        <h2>section</h2>
-            <ul class="section__list">
-                <li class="section__item">
-                    <h3 class="section__title">Strategy</h3>
-                        <p class="section__text">
+<main class="main">
+    <section class="benefits">
+        <div class="conteiner">
+            <ul class="benefits__list reset-list">
+                <li class="benefits__item">
+                    <h3 class="benefits__title">
+                        Strategy
+                    </h3>
+                    <p class="benefits__text">
                         Our goal is to identify the business
-                        problem to walk away with the perfect and creative solution. 
-                      .</p>
+                        problem to walk away with the perfect and creative soluti</p>
                 </li>
-                <li class="section__item">
-                    <h3 class="section__title">Punctuality</h3>
-                        <p>Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+                <li class="benefits__item">
+                    <h3 class="benefits__title">
+                        Punctuality
+                    </h3>
+                    <p class="benefits__text">
+                        Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
                 </li>
-                <li class="section__item">
-                    <h3 class="section__title">Diligence</h3>
-                        <p class="section__text"> Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
-                </li>        
-                <li class="section__item">
-                        <h3 class="section__title">Technologies</h3>
-                            <p class="section__text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving</p>
-                </li>            
+                <li class="benefits__item">
+                    <h3 class="benefits__title">
+                        Diligence
+                    </h3>
+                    <p class="benefits__text">
+                        Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
+                </li>
+                <li class="benefits__item">
+                    <h3 class="benefits__title">
+                        Technologies
+                    </h3>
+                    <p class="benefits__text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.
+</p>
+                </li>
             </ul>
+        </div>
     </section>
-</div> 
-<!--section 2-->
-<div class="main">
-    <section class="section__two">
-        <h2 class="section__group">What are we doing</h2>
-            <img class="section__icon" src="./img/1webstudio.jpg" alt="Monitor">
-            <img class="section__icon" src="./img/2webstudio.jpg" alt="Telephons">
-            <img class="section__icon" src="./img/3webstudio.jpg" alt="Aiphon">
+    <!--doing-->
+    <section class="doing">
+        <div class="conteiner">
+            <h2 class="center">What are we doing</h2>
+            <ul class="doing__list reset-list">
+                <li class="doing__item">
+                    <img src="./img/1.jpg " alt="Monitor">
+                </li>
+                <li class="doing__item">
+                    <img src="./img/2.jpg" alt="Aifon">
+                </li>
+                <li class="doing__item">
+                    <img src="./img/3.jpg" alt="Telephon">
+                </li>
+            </ul>
+        </div>
     </section>
-</div>
-<!--section3-->
-<div class="section__three">
-   <h2 class="section__gallery">Our Team</h2>
-    <div class="section__ryav">
-        <img class="section__leftimg" src="./img/4webstudio1.jpg" alt="Mark Guerrero">
-        <img class="section__leftimg"  src="./img/5webstudio2.jpg" alt="Tom Ford">
-        <img class="section__leftimg" src="./img/6webstudio3.jpg" alt="Camila Garcia">
-        <img class="section__leftimg"  src="./img/7webstudio4.jpg" alt="Daniel Wilson">
-    </div>
-</div>
+<!--Team-->
+    <section class="team">
+        <div class="conteiner">
+            <h2 class="center">Our Team</h2>
+            <ul class="team__list reset-list">
+                <li class="team__item">
+                    <img src="./img/4.jpg" alt="Mark">
+                    <h3 class="team__title">Mark Guerrero
+                    </h3>
+                    <p class="team__text">Product Designer
+                    </p>
+                </li>
+                <li class="team__item">
+                    <img src="./img/5.jpg" alt="Tom">
+                    <h3 class="team__title">Tom Ford 
+                    </h3>
+                    <p class="team__text">Frontend Developer
+                    </p>
+                </li>
+                <li class="team__item">
+                    <img src="./img/6.jpg" alt="Camila">
+                    <h3 class="team__title">Camila Garcia
+                    </h3>
+                    <p class="team__text">Marketing
+                    </p>
+                </li>
+                <li class="team__item">
+                    <img src="./img/7.jpg" alt="Daniel">
+                    <h3 class="team__title">Daniel Wilson 
+                    </h3>
+                    <p class="team__text">UI Designer
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+</main>
 <!--footer-->
-<div class="footer">
-    <div class="footer__logo">
-        <a class="footer__web" href="">WEB<span class="footer__studio">STUDIO</span></a>
+<footer class="footer">
+    <div class="conteiner">
+        <div class="footer__logo">
+            <a href="/" class="logo__web">WEB<span class="logo__studio">STUDIO
+            </span>
+            </a>
+        </div>
+        <p class="footer__text">
+            Increase the flow of customers and<br>sales for your business with digital<br>marketing & growth solutions.
+        </p>
     </div>
-     <p class="footer__text">Increase the flow of customers and<br> sales for your business with digital<br> marketing & growth solutions.</p> 
-</div>
+</footer>
 </body>
 </html>
 
